@@ -1,0 +1,10 @@
+ALGORITHM triangle
+VARIABLES i, j: Entier
+DEBUT
+	Pour i = 1 a 5 faire
+		Pour j = 1 a i faire
+			Ecrire(j, " ")
+		FinPour
+		Ecrire('\n')
+	FinPour
+FIN

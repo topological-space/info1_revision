@@ -1,0 +1,15 @@
+ALGORITHM les_condition
+VARIABLES age: Entier
+DEBUT
+	Ecrire("age: ")
+	Lire(age)
+	Si (age >= 21 et age <= 70) alors
+		Ecrire("mr7ba")
+	Sinon Si (age >= 18) alors
+		Ecrire("dkhl")
+	Sinon Si (age >= 12) alors
+		Ecrire("sir tkbr")
+	Sinon
+		Ecrire("tlas")
+	FinSi
+FIN

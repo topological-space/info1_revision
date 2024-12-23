@@ -1,0 +1,9 @@
+ALGORITHM boucles
+VARIABLES i, j: Entier
+DEBUT
+	Pour i = 0 a 100 pas de 2 faire
+		Pour j = 0 a 100 faire
+			Ecrire(i, "x", j)
+		FinPour
+	FinPour
+FIN

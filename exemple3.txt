@@ -1,0 +1,9 @@
+ALGORITHM factorial
+VARIABLE n, factorial_de_n: Entier
+DEBUT
+	...
+	Pour i = n a 1 de pas -1 alors
+	for 
+	
+	Ecrire(factorial_de_n)
+FIN

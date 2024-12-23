@@ -1,0 +1,12 @@
+ALGORITHM tableaux_multi_dimen
+VAR...
+TABLEAUX notes[3][3]: Entier
+DEBUT
+	notes[1][2] <- 6
+	Pour i = 0 a 3 faire
+		Pour j = 0 a 3 faire
+			Ecrire(notes[i][j], " ")
+		FinPour
+		Ecrire("\n")
+	FinPour
+FIN

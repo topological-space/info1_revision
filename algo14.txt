@@ -1,0 +1,21 @@
+ALGORITHM fcts
+VARIABLES n, m, carre_de_n: Entier, user_input: chaine de character
+
+FUNCTION puissance(x: Reel, y: Entier): Reel
+DEBUT
+	Retourner x^y
+FIN
+
+FUNCTION input(message: chaine de character): chaine de character
+DEBUT
+	Ecrire(message)
+	Lire(user_input)
+	Retourner user_input
+FIN
+
+DEBUT
+	...
+	carre_de_n <- puissance(4, 7)
+	Ecrire(carre_de_n)
+	age <- input("ton age est")
+FIN

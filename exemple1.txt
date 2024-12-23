@@ -1,0 +1,18 @@
+Algorithme factoriel
+
+Variable n: entier
+
+Fonction fact(n: entier): entier
+Début
+    si (n <= 1) alors
+        retourner 1
+    sinon
+        retourner n*fact(n - 1)
+    finsi
+Fin
+
+Début
+    écrire('Entrez un nombre: ')
+    lire(n)
+    écrire(n, '! = ', fact(n))
+Fin

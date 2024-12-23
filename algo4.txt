@@ -1,0 +1,7 @@
+ALGORITHM les_operation_des_chaines
+VARIABLES a, b, c: chaine de characters
+DEBUT
+	a <- "hello"
+	b <- "world"
+	c <- a & ' ' & b
+FIN

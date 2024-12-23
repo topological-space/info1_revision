@@ -1,0 +1,12 @@
+ALGORITHM tableau
+VARIABLE moyen: Reel, somme: Entier
+TABLEAUX notes[20]: Entier
+DEBUT
+	...
+	notes[0] <- 0
+	somme <- 0
+	Pour i = 0 a 20 - 1 faire
+		somme <- somme + note[i]
+	FinPour
+	moyen <- somme / 20
+FIN

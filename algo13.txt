@@ -1,0 +1,16 @@
+ALGORITHM tableau_dynamique
+TABLEAUX notes[]: Entier
+DEBUT
+	Ecrire("nombres des notes: ")
+	Lire(n)
+	Redim notes[n]
+	Pour i = 0 a n faire
+		Ecrire("note", i, ":")
+		Lire(notes[i])
+	FinPour
+	somme <- 0
+	Pour i = 0 a n faire
+		somme <- somme + notes[i]
+	FinPour
+	Redim notes[n + 1]
+FIN

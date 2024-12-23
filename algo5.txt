@@ -1,0 +1,15 @@
+ALGORITHM les_operation_des_booleen
+VARIABLES a, b, c: Booleen, n1, n2: Reel
+DEBUT
+	a <- Vrai
+	b <- Faux
+	c <- a ou b
+
+	a <- Faux <> Faux
+	b <- Non Vrai
+	c <- a et b
+
+	n1 <- 1
+	n2 <- 0.6
+	c <- Faux et (n1 = n2)
+FIN

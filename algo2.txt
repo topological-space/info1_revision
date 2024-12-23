@@ -1,0 +1,9 @@
+ALGORITHM surface
+VARIABLES r, s: Reel
+CONSTANTS pi = 3.14
+DEBUT
+	Ecrire("ecrire r: ")
+	Lire(r)
+	s <- pi * r^2
+	Ecrire("surface: ", s)
+FIN

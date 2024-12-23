@@ -1,0 +1,27 @@
+Algorithme trierTabNombres
+
+Variable
+    tab: tableau[5] de entier
+    i, j, temp: entier
+
+Début
+    tab <- [7, 5, -3, 9, 0]
+    pour i de 1 à 5 faire
+        pour j de i + 1 à 5 faire
+            si tab[j]<tab[i] alors
+                temp <- tab[i]
+                tab[i] <- tab[j]
+                tab[j] <- temp
+            finsi
+        finpour
+    finpour
+
+    écrire('[')
+    pour i de 1 à 5 faire
+        écrire(tab[i])
+        si i <> 5 alors
+            écrire(', ')
+        finsi
+    finpour
+    écrire(']')
+fin

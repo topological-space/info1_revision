@@ -1,0 +1,14 @@
+ALGORITHM name_de_lalgo
+VARIABLES r, a: reel, n: chaine de characters
+CONSTANTS pi = 3.14, oih = 'h'
+DEBUT
+	r <- 7.1
+	a <- r + 1
+	n <- "hello"
+	r <- 6
+	a <- r + 1
+	Ecrire(a)
+	Lire(a)
+	Ecrire("hello")
+	Ecrire(a)
+FIN

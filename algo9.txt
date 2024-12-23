@@ -1,0 +1,8 @@
+ALGORITHM boucle2
+VARIABLE age:Entier
+DEBUT
+	age <- 0
+	Tant que (age < 18)
+		age <- age + 1
+	FinTantque
+FIN

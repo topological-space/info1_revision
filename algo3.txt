@@ -1,0 +1,12 @@
+ALGORITHM surface_de_rectangle
+VARIABLES L, l, s: Reel
+DEBUT
+Ecrire("ecrire L")
+Lire(L)
+Ecrire("ecrire l")
+Lire(l)
+s <- L * l
+Ecrire("la surface est: ", s)
+FIN
+
+

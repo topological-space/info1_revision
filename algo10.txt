@@ -1,0 +1,8 @@
+ALGORITHM boucle3
+VARIABLES n: Entier
+DEBUT
+	n <- 0
+	Repter
+		n <- n + 1
+	Jusqu'au n > 10
+FIN
